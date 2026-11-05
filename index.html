@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Anshika Bhanot - MSc Business Analytics portfolio focused on applied machine learning, risk, prediction, and human-centred AI.">
-  <title>Anshika Bhanot | Data Science & Machine Learning</title>
+  <meta name="description" content="Anshika Bhanot is a data analyst who connects SQL, Python and business intelligence with clear, useful decisions.">
+  <meta name="theme-color" content="#faf8f2">
+  <title>Anshika Bhanot | Data Analyst &amp; Business Intelligence</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -26,10 +27,10 @@
   <main id="top">
     <section class="hero section">
       <div class="hero-content">
-        <p class="eyebrow">London-based MSc Business Analytics student</p>
+        <p class="eyebrow">London · Data Analyst · Business Intelligence</p>
         <h1>Anshika Bhanot</h1>
-        <p class="role">MSc Business Analytics | Data Science &amp; Machine Learning</p>
-        <p class="tagline">Building applied machine learning systems across risk, prediction, and human-centred AI.</p>
+        <p class="role">I make data useful.</p>
+        <p class="tagline">I use SQL, Python and BI to find the story in data, explain what it means, and help teams decide what to do next.</p>
         <div class="hero-actions" aria-label="Primary links">
           <a class="button button-primary" href="#projects">View Projects</a>
           <a class="button button-secondary" href="https://github.com/anshikabhanot03-dot" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -41,58 +42,57 @@
           <span>London, UK</span>
         </div>
       </div>
-      <aside class="hero-panel" aria-label="Portfolio focus">
-        <div class="signal signal-strong">
-          <span>Focus</span>
-          <strong>Applied ML</strong>
-        </div>
-        <div class="signal-grid">
-          <div class="signal">
-            <span>Domains</span>
-            <strong>Risk</strong>
-          </div>
-          <div class="signal">
-            <span>Methods</span>
-            <strong>Prediction</strong>
-          </div>
-          <div class="signal">
-            <span>Design</span>
-            <strong>Human-centred AI</strong>
-          </div>
-          <div class="signal">
-            <span>Location</span>
-            <strong>London</strong>
-          </div>
-        </div>
-      </aside>
     </section>
 
     <section class="section projects-section" id="projects" aria-labelledby="projects-title">
       <div class="section-heading">
         <p class="eyebrow">Selected work</p>
         <h2 id="projects-title">Featured Projects</h2>
+        <p class="section-intro">A selection of work across business intelligence, analytics and applied modelling.</p>
       </div>
 
       <div class="projects-grid">
-        <article class="project-card">
+        <article class="project-card project-featured">
           <div>
-            <h3>Rolls-Royce Assistive Communication System (MND Project)</h3>
-            <p class="impact">Designed a human-centred AI system to reduce communication friction for users with Motor Neurone Disease.</p>
+            <p class="project-kicker">Retail analytics</p>
+            <h3>Retail Commercial Intelligence</h3>
+            <p class="impact">Built an audited retail analytics pipeline and interactive dashboard to turn transaction data into useful business insight.</p>
             <ul>
-              <li>Built response ranking system generating 5 sentiment-based reply options</li>
-              <li>Designed interaction flow for near one-tap communication</li>
-              <li>Created baseline keyword-matching system with LLM-ready architecture</li>
-              <li>Measured latency and response efficiency for usability evaluation</li>
-              <li>Focused on accessibility and human-centred AI design</li>
+              <li>Designed a PostgreSQL star schema and reconciled core KPIs against SQL benchmarks</li>
+              <li>Established a reconciled £18.98m net revenue baseline and 2.44% cancellation rate</li>
+              <li>Analysed product concentration, customer retention, returns and geography</li>
+              <li>Translated findings into recommendations for reactivation, wholesale accounts and stock planning</li>
             </ul>
           </div>
           <div class="project-footer">
-            <p class="tech"><span>Tech</span> Python, NLP concepts, JSON system design</p>
-            <a class="button button-code" href="https://github.com/anshikabhanot03-dot" target="_blank" rel="noopener noreferrer">View Code on GitHub</a>
+            <p class="tech"><span>Stack</span> PostgreSQL, SQL, Python, Streamlit, Plotly</p>
+            <div class="project-actions">
+              <a class="button button-code" href="https://github.com/anshikabhanot03-dot/commercial-performance-intelligence-dashboard" target="_blank" rel="noopener noreferrer">GitHub repository</a>
+              <a class="button button-demo" href="https://commercial-performance-intelligence-dashboard.streamlit.app/" target="_blank" rel="noopener noreferrer">Open Streamlit demo</a>
+            </div>
           </div>
         </article>
 
         <article class="project-card">
+          <p class="project-kicker">Human-centred AI</p>
+          <div>
+            <h3>Rolls-Royce Assistive Communication System (MND Project)</h3>
+            <p class="impact">Prototyped an assistive response system with Rolls-Royce and Bayes to help people with MND communicate with fewer interactions.</p>
+            <ul>
+              <li>Combined structured reply templates, retrieval-augmented generation and voice context</li>
+              <li>Designed five response choices, with three ready to use and two fill-in options</li>
+              <li>Reached 98.4% routing accuracy across 61 curated questions, with 100% output-contract validity in the evaluation sweep</li>
+              <li>Added 78 automated tests for routing, response structure and edge cases</li>
+            </ul>
+          </div>
+          <div class="project-footer">
+            <p class="tech"><span>Tech</span> Python, RAG, prompt design, evaluation</p>
+            <a class="button button-code" href="https://github.com/sam-matisonn/MSc-Business-Analytics-Rolls-Royce-ARP" target="_blank" rel="noopener noreferrer">Explore MND project on GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <p class="project-kicker">Markets · Event study</p>
           <div>
             <h3>Market Event Study - IBM Acquisition of Confluent</h3>
             <p class="impact">Measured market reaction to IBM's $1.3B acquisition of Confluent using an event-study framework.</p>
@@ -111,20 +111,23 @@
         </article>
 
         <article class="project-card">
+          <p class="project-kicker">Risk analytics</p>
           <div>
             <h3>Fraud Detection System</h3>
-            <p class="impact">Developed a risk-based ML system to detect fraudulent transactions under high class imbalance.</p>
+            <p class="impact">Built a cost-sensitive fraud classifier and interactive app around the real trade-off between missed fraud and unnecessary alerts.</p>
             <ul>
-              <li>Built end-to-end classification pipeline for highly imbalanced credit card data</li>
-              <li>Engineered behavioural anomaly detection features</li>
-              <li>Achieved XGBoost PR-AUC ~0.86, ROC-AUC ~0.98 and recall ~0.88</li>
-              <li>Focused on minimising false negatives (fraud risk)</li>
-              <li>Deployed real-time Streamlit dashboard for risk scoring</li>
+              <li>Compared Logistic Regression, Random Forest, XGBoost and Isolation Forest on 284,807 transactions</li>
+              <li>Selected the decision threshold by minimising expected cost instead of using a default 0.5 cutoff</li>
+              <li>XGBoost reached PR-AUC 0.87, ROC-AUC 0.98, 89% recall and 63% precision on a stratified holdout set</li>
+              <li>Built a Streamlit app for CSV scoring and adjustable threshold review</li>
             </ul>
           </div>
           <div class="project-footer">
-            <p class="tech"><span>Tech</span> Python, Scikit-learn, XGBoost, Pandas, Streamlit</p>
-            <a class="button button-code" href="https://github.com/anshikabhanot03-dot/fraud-detection-system" target="_blank" rel="noopener noreferrer">View Code on GitHub</a>
+            <p class="tech"><span>Tech</span> Python, XGBoost, scikit-learn, Streamlit</p>
+            <div class="project-actions">
+              <a class="button button-code" href="https://github.com/anshikabhanot03-dot/fraud-detection-system" target="_blank" rel="noopener noreferrer">GitHub repository</a>
+              <a class="button button-demo" href="https://fraud-detection-system-000.streamlit.app/" target="_blank" rel="noopener noreferrer">Open Streamlit app</a>
+            </div>
           </div>
         </article>
       </div>
@@ -141,23 +144,32 @@
           <p>Data Analyst | Jun 2024 - Aug 2025</p>
         </div>
         <ul>
-          <li>Built and maintained Snowflake data pipelines for trading, market data, reporting and trend analysis</li>
-          <li>Developed time-series validation frameworks that improved reported metric stability by ~15%</li>
-          <li>Streamlined recurring data updates and reporting workflows, reducing manual intervention by ~30%</li>
+          <li>Analysed user, trading and market data in Snowflake, tracking 10+ KPIs across activity, revenue, conversion and retention</li>
+          <li>Used SQL and Python for cohort, segmentation and time-series analysis across 100K+ records and 50+ markets</li>
+          <li>Built recurring reports and dashboards, reducing manual reporting effort by about 30%</li>
+          <li>Worked with stakeholders to shape questions into analytical requirements and explain findings to non-technical audiences</li>
         </ul>
       </article>
     </section>
 
     <section class="section secondary-section" aria-labelledby="additional-title">
       <div class="section-heading compact">
-        <p class="eyebrow">Secondary work</p>
-        <h2 id="additional-title">Additional Work &amp; Coursework</h2>
+        <p class="eyebrow">Selected coursework</p>
+        <h2 id="additional-title">More projects</h2>
       </div>
-      <div class="link-list" aria-label="Additional work links">
-        <a href="#" target="_blank" rel="noopener noreferrer">Advanced Predictive Analysis (Portfolio Optimisation)</a>
-        <a href="#" target="_blank" rel="noopener noreferrer">Telco Customer Churn Prediction</a>
-        <a href="#" target="_blank" rel="noopener noreferrer">Insurance Shrinkage GLM Coursework</a>
-        <a href="#" target="_blank" rel="noopener noreferrer">Data Management Systems (ETL Project, in progress)</a>
+      <div class="coursework-grid">
+        <details class="coursework-item">
+          <summary>Portfolio construction &amp; shrinkage estimation</summary>
+          <p>Compared eight return estimators and minimum-variance, tangency and equal-weight portfolios using rolling windows. Evaluated Sharpe ratios across the full period, the financial crisis and the pandemic.</p>
+        </details>
+        <details class="coursework-item">
+          <summary>Insurance claim severity</summary>
+          <p>Compared nine shrinkage and baseline Gamma GLMs with a log link. Assessed out-of-sample accuracy, risk discrimination, calibration and computational efficiency across repeated cross-validation runs.</p>
+        </details>
+        <details class="coursework-item">
+          <summary>Telco customer churn</summary>
+          <p>Built a leakage-safe modelling pipeline for 7,043 customers, comparing six model families. Added a retention economics calculator to connect model errors with intervention costs and customer value.</p>
+        </details>
       </div>
     </section>
 
@@ -172,20 +184,20 @@
           <p>Python, SQL, R</p>
         </div>
         <div class="skill-row">
-          <h3>Machine Learning</h3>
-          <p>Scikit-learn, XGBoost, Regression, Tree Models, Deep Learning</p>
+          <h3>BI &amp; Visualisation</h3>
+          <p>Power BI, Tableau, Streamlit, KPI reporting, dashboard design, data storytelling</p>
         </div>
         <div class="skill-row">
           <h3>Data</h3>
-          <p>Pandas, NumPy, Statsmodels, SciPy, Feature Engineering, Time-series Analysis</p>
+          <p>SQL, Snowflake, PostgreSQL, SQLite, Pandas, NumPy, Statsmodels, feature engineering</p>
         </div>
         <div class="skill-row">
-          <h3>Advanced</h3>
-          <p>Imbalanced Learning, GLMs, Portfolio Optimisation, ETL Pipelines, A/B Testing, Drift Detection</p>
+          <h3>Applied Modelling</h3>
+          <p>Scikit-learn, XGBoost, TensorFlow/Keras, predictive modelling, classification, GLMs</p>
         </div>
         <div class="skill-row">
           <h3>Tools</h3>
-          <p>Git, Snowflake, PostgreSQL, Streamlit, Tableau, Power BI, MLflow, Docker, Excel</p>
+          <p>Git, Docker, Excel, Power BI, Tableau, Streamlit, time-series, cohort and segmentation analysis</p>
         </div>
       </div>
     </section>
@@ -196,9 +208,9 @@
         <h2 id="about-title">About</h2>
       </div>
       <div class="about-copy">
-        <p>MSc Business Analytics student at Bayes Business School, focused on applied machine learning, predictive modelling and data-driven decision systems.</p>
-        <p>Experience spans Snowflake data pipelines, time-series validation, ML model evaluation and early data engineering systems.</p>
-        <p>Interested in roles in data science, machine learning engineering, and analytics.</p>
+        <p>MSc Business Analytics, Bayes Business School (2025–26), and a BCom from the University of Delhi. I enjoy turning open-ended questions into analysis people can use.</p>
+        <p>My experience spans SQL and Snowflake, Python analysis, KPI reporting, dashboards and data validation across customer, transaction and market data.</p>
+        <p>I’m interested in Data Analyst, Business Analyst and BI roles that bring data closer to the people making decisions.</p>
       </div>
     </section>
   </main>
